@@ -296,6 +296,7 @@ require('lazy').setup({
       -- VimTeX configuration goes here, e.g.
       vim.g.vimtex_view_method = 'general'
       vim.g.vimtex_imaps_leader = '~'
+      vim.g.vimtex_quickfix_autoclose_after_keystrokes = 1
     end,
   },
   {
