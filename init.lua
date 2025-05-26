@@ -165,6 +165,8 @@ vim.api.nvim_create_autocmd('FileType', {
   callback = function()
     vim.keymap.set('n', 'j', 'gj', { buffer = true, noremap = true })
     vim.keymap.set('n', 'k', 'gk', { buffer = true, noremap = true })
+    vim.keymap.set('v', 'j', 'gj', { buffer = true, noremap = true })
+    vim.keymap.set('v', 'k', 'gk', { buffer = true, noremap = true })
     vim.opt_local.linebreak = true
     vim.cmd 'colorscheme gruvbox'
   end,
